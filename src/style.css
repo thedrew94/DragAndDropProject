@@ -24,7 +24,6 @@
 /* SET THE STYLES BASED ON THE USER SYSTEM PREFERENCES FOR DARK THEME OR LIGHT THEME */
 @media (prefers-color-scheme: dark) {
   :root {
-    --decor-color-1: green;
   }
 
   /* IMPLEMENT THE FOLLOWING IF WE WANT TO ALLOW THE USER TO TOGGLE MANUALLY LIGHT DARK MODE */
@@ -65,7 +64,7 @@ html {
   scroll-behavior: smooth;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  color: #ffffff;
+  color: #212121;
 }
 
 body {
